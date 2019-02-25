@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733ffe41-3189-4a59-9589-1091ca67a040" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageProcessing/ImageGradients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MorphologicalTransformations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MorphologicalTransformations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageProcessing/MorphologicalTransformations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="321">
+              <caret line="26" selection-start-line="26" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageGradients.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ImageProcessing/ImageGradients.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -77,10 +90,11 @@
         <option value="$PROJECT_DIR$/ImageProcessing/ImageThresholding.py" />
         <option value="$PROJECT_DIR$/ImageProcessing/SmoothingImages.py" />
         <option value="$PROJECT_DIR$/ImageProcessing/MorphologicalTransformations.py" />
+        <option value="$PROJECT_DIR$/ImageProcessing/ImageGradients.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2139" />
     <option name="y" value="78" />
     <option name="width" value="1400" />
@@ -104,12 +118,6 @@
               <item name="OpenCVProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCVProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCVProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCVProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-              <item name="Pictures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCVProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -150,25 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MorphologicalTransformations">
-    <configuration name="ArithmeticOperations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCVProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoreOperations" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoreOperations/ArithmeticOperations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.ImageGradients">
     <configuration name="ForthTrackbar" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCVProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +190,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageProcessing/GeometicTransformationsOfImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ImageGradients" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCVProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImageProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageProcessing/ImageGradients.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,19 +269,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.ForthTrackbar" />
-      <item itemvalue="Python.ArithmeticOperations" />
       <item itemvalue="Python.GeometicTransformationsOfImage" />
       <item itemvalue="Python.ImageThresholding" />
       <item itemvalue="Python.SmoothingImages" />
       <item itemvalue="Python.MorphologicalTransformations" />
+      <item itemvalue="Python.ImageGradients" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ImageGradients" />
         <item itemvalue="Python.MorphologicalTransformations" />
         <item itemvalue="Python.SmoothingImages" />
         <item itemvalue="Python.ImageThresholding" />
         <item itemvalue="Python.GeometicTransformationsOfImage" />
-        <item itemvalue="Python.ArithmeticOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -281,13 +289,12 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -460,10 +467,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Pictures/j.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Pictures/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ImageProcessing/MorphologicalTransformations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="321">
+          <caret line="26" selection-start-line="26" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageProcessing/ImageGradients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
