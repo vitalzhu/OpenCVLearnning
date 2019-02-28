@@ -7,9 +7,16 @@ img = cv.imread(imgPath,0)
 
 edges = cv.Canny(img,200,200)
 
+lower_reso = cv.pyrDown(img)
 
-titles = ['Original','Edge Image']
-imgs = [img,edges]
+lower_resoM = lower_reso
+
+for i in range(2):
+    lower_resoM = cv.pyrDown(lower_resoM)
+
+
+titles = ['Original','Edge Image','Lower_reso','Lower_resoM']
+imgs = [img,edges,lower_reso,lower_resoM]
 
 
 
